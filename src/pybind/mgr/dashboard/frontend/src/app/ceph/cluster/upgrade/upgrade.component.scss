@@ -12,3 +12,62 @@
   background-color: vv.$gray-200;
   border-color: vv.$gray-400;
 }
+
+.upgrade-card .upgrade-card-content {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.upgrade-label {
+  font-weight: 600;
+  margin-top: var(--cds-spacing-06);
+}
+
+.upgrade-value {
+  margin-top: var(--cds-spacing-03);
+}
+
+.upgrade-success-icon {
+  color: var(--cds-support-success);
+}
+
+.upgrade-warning-icon {
+  color: var(--cds-support-warning);
+}
+
+.upgrade-status-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.upgrade-link {
+  margin-top: var(--cds-spacing-03);
+  margin-bottom: var(--cds-spacing-03);
+}
+
+.upgrade-button {
+  margin-top: var(--cds-spacing-03);
+  margin-bottom: var(--cds-spacing-05);
+}
+
+.upgrade-half-width {
+  width: 50%;
+}
+
+.upgrade-info-text {
+  color: var(--cds-link-primary);
+}
+
+.upgrade-error-text {
+  color: var(--cds-support-error);
+  margin-top: var(--cds-spacing-03);
+  margin-bottom: var(--cds-spacing-05);
+}
+
+:host ::ng-deep .upgrade-card .productive-card {
+  height: 100%;
+}
